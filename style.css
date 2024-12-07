@@ -139,6 +139,11 @@ html, body, footer {
 
 }
 
+.mainbuttons:hover {
+    color:7d7d7d;
+    border: 1px solid #7d7d7d;
+}
+
 .mainbuttons.active{
     border-color:black;
     color:black;
@@ -157,6 +162,16 @@ html, body, footer {
     margin-right:50px;
     border: 1px solid #bdbdbd;
     border-radius:5px;
+}
+
+.section:hover {
+    border: 1px solid black;
+}
+.section:hover  .prefix {
+    color:black;
+}
+.section:hover  .price {
+    color:#9c0202;
 }
 
 .img1{
@@ -204,6 +219,8 @@ html, body, footer {
     font-size: 24px;
     color: gray;
 }
+
+
 
 .footer{
     display:flex;
