@@ -678,7 +678,7 @@ html, body, footer {
 
 @media (max-width: 320px) {
     .search-bar {
-        margin:30px 0px 0px 20px;
+        margin:30px 0px 0px 10px;
         width: 270px;
     }
     .search-bar input {
